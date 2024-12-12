@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles for Employee Dashboard */
+.dashboard-container {
+    max-width: 500px; /* Maximum width for the dashboard */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding around the content */
+    background: white; /* White background for the dashboard */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Header Styles */
+h1 {
+    text-align: center; /* Centered header text */
+    color: #333; /* Dark text color */
+}
+
+h2 {
+    text-align: center; /* Centered subheader text */
+    color: #666; /* Light gray subheader color */
+}
+
+/* Button Styles */
+button {
+    width: calc(30% - 10px); /* Adjust width to fit three buttons in a row with margin */
+    padding: 10px; /* Padding inside button */
+    margin-top: 20px; /* Margin on top of button */
+    color: white; /* White text color for button */
+    border: none; /* No border for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Specific Button Colors */
+.bg-green-500 {
+    background-color: #38a169; /* Green for Present button */
+}
+
+.bg-yellow-500 {
+    background-color: #d69e2e; /* Yellow for Late button */
+}
+
+.bg-red-500 {
+    background-color: #e53e3e; /* Red for Absent button */
+}
+
+/* Button Hover Effects */
+button:hover {
+    opacity: 0.9; /* Slightly reduce opacity on hover for effect */
+}
+
+/* Attendance Status Message Styles */
+p {
+    text-align: center; /* Centered attendance status message text */
+    color: #333; /* Dark text color for message */
+}
+
+/* Utility Classes for Margins and Padding */
+.mb-4 {
+    margin-bottom: 1rem; /* Bottom margin utility class */
+}
+
+.mt-4 {
+    margin-top: 1rem; /* Top margin utility class */
+}

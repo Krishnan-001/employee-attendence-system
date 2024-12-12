@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styles for Admin Dashboard */
+.dashboard-container {
+    max-width: 600px; /* Maximum width for the dashboard */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Padding around the content */
+    background: white; /* White background for the dashboard */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Header Styles */
+h1 {
+    text-align: center; /* Centered header text */
+    color: #333; /* Dark text color */
+}
+
+h2 {
+    text-align: center; /* Centered subheader text */
+    color: #666; /* Light gray subheader color */
+}
+
+/* List Styles */
+ul {
+    list-style-type: disc; /* Disc bullet points for list items */
+    padding-left: 20px; /* Padding on the left for list items */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+    color: #444; /* Darker gray for list item text */
+}
+
+/* Attendance Status Color Coding */
+li span.present {
+    color: #38a169; /* Green for Present status */
+}
+
+li span.late {
+    color: #d69e2e; /* Yellow for Late status */
+}
+
+li span.absent {
+    color: #e53e3e; /* Red for Absent status */
+}

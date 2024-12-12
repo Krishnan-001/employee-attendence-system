@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox Centering */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+/* Full Height Screen */
+.h-screen {
+    height: 100vh; /* Full viewport height */
+}
+
+/* Container Styles for Login Page */
+.container {
+    max-width: 400px; /* Maximum width for the login form */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding around the content */
+    background: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Header Styles */
+h1 {
+    text-align: center; /* Centered header text */
+    color: #333; /* Dark text color */
+}
+
+/* Select Styles */
+select {
+    width: 100%; /* Full width select box */
+    padding: 10px; /* Padding inside the select box */
+    margin-top: 10px; /* Margin on top of select box */
+    border-radius: 5px; /* Rounded corners for select box */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+/* Button Styles */
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    margin-top: 20px; /* Margin on top of button */
+    background-color: #007bff; /* Blue background color for button */
+    color: white; /* White text color for button */
+    border: none; /* No border for button */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Utility Classes for Margins and Padding */
+.mb-4 {
+    margin-bottom: 1rem; /* Bottom margin utility class */
+}
